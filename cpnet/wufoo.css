@@ -217,6 +217,7 @@ input, textarea { width: 100%; }
 .wufoo label.required:after, .wufoo input[type="checkbox"][required] + label:after { content: '*'; color: #B21A4A; position: relative; left: 2px; }
 .wufoo label.checkbox, .wufoo label.radio { line-height: 24px; }
 
+.wufoo input[type="checkbox"], .wufoo input[type="radio"] { height: auto; }
 
 
 /* Material Design Shadows */
