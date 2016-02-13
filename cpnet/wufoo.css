@@ -42,15 +42,13 @@ input, textarea { width: 100%; }
 
 /* Material Design Shadows */
 .z-1, .wufoo button, .wufoo .button, .wufoo input[type=submit], .wufoo input[type=button], .wufoo .submit, .all-z-1 > * { box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24); }
-
 .z-2, .wufoo button:hover, .wufoo .button:hover, .wufoo input[type=submit]:hover, .wufoo input[type=button]:hover, .wufoo .submit:hover, .all-z-2 > * { box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23); }
-
 .z-3, .all-z-3 > * { box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23); }
-
 .z-4, .all-z-4 > * { box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22); }
-
 .z-5, .all-z-5 > * { box-shadow: 0 19px 38px rgba(0, 0, 0, 0.3), 0 15px 12px rgba(0, 0, 0, 0.22); }
-
 .z-2:hover, .wufoo button:hover, .wufoo .button:hover, .wufoo input[type=submit]:hover, .wufoo input[type=button]:hover, .wufoo .submit:hover { box-shadow: 0 3px 6px rgba(0, 0, 0, 0.2), 0 3px 6px rgba(0, 0, 0, 0.28); }
 
+#logo { display: none; }
+#container { background:none; box-shadow: none; }
+html { background: none!important; }
 
