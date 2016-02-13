@@ -48,8 +48,8 @@ input, textarea { width: 100%; }
 .eF select option:after, #container select option:after { content: '\0000a0 \0000a0 \0000a0'; /* Adds space between value and menu button where padding is ignored */ }
 .eF > .eF_overlay, #container > .eF_overlay { display: none; }
 .eF .eF.loading, #container .eF.loading { overflow: hidden !important; }
-.eF .eF.loading > .eF_overlay, #container .eF.loading > .eF_overlay { display: block; position: absolute; left: 0; top: 0; width: 100%; height: 100%; background: rgba(0, 0, 0, 0.2) url(/admin/images/progress1.gif) center no-repeat; z-index: 100; }
-.eF .eF.loading .submit:before, #container .eF.loading .submit:before { content: url(/admin/images/progress1.gif); margin-right: 5px; }
+.eF .eF.loading > .eF_overlay, #container .eF.loading > .eF_overlay { display: block; position: absolute; left: 0; top: 0; width: 100%; height: 100%; background: rgba(0, 0, 0, 0.2); z-index: 100; }
+.eF .eF.loading .submit:before, #container .eF.loading .submit:before { margin-right: 5px; }
 .eF .eF_input > textarea, #container .eF_input > textarea { padding: 0; margin: 0; height: auto; width: 100%; line-height: inherit; font-family: inherit; font-size: inherit; border: 0; background: transparent; }
 .eF .eF_input, #container .eF_input { line-height: 24px; }
 .eF button, .eF .button, .eF input[type=submit], .eF input[type=button], .eF .submit, #container button, #container .button, #container input[type=submit], #container input[type=button], #container .submit { display: inline-block; background: #f2ebcf; color: white; border-width: 0; transition: all ease-in-out 0.2s; margin: 0; line-height: 36px !important; height: 36px; border-radius: 3px; cursor: pointer !important; text-decoration: none; padding: 0 12px; font: inherit; }
