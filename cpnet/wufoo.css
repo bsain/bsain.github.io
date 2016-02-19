@@ -1,6 +1,8 @@
 @charset "UTF-8";
 
 /* Forms */
+form { max-width: 480px; }
+
 label { display: inline-block; line-height: 24px; }
 
 input, select, textarea { line-height: 22px; }
@@ -8,6 +10,7 @@ input, select, textarea { line-height: 22px; }
 fieldset { margin-bottom: 24px; }
 
 input, textarea { width: 100%; }
+
 
 
 .wufoo { position: relative; }
@@ -24,8 +27,8 @@ input, textarea { width: 100%; }
 .wufoo select { max-width: 100%; }
 .wufoo select option:after { content: '\0000a0 \0000a0 \0000a0'; /* Adds space between value and menu button where padding is ignored */ }
 
-.wufoo button, .wufoo .button, .wufoo input[type=submit], .wufoo input[type=button] { display: inline-block; background: #f2ebcf; color: white; border-width: 0; transition: all ease-in-out 0.2s; margin: 0; line-height: 36px !important; height: 36px; border-radius: 3px; cursor: pointer !important; text-decoration: none; padding: 0 12px; font: inherit; }
-.wufoo button[disabled], .wufoo button[disabled]:hover, .wufoo .button[disabled], .wufoo .button[disabled]:hover, .wufoo input[type=submit][disabled], .wufoo input[type=submit][disabled]:hover, .wufoo input[type=button][disabled], .wufoo input[type=button][disabled]:hover, .wufoo .submit[disabled], .wufoo .submit[disabled]:hover { background: none; color: #797668; box-shadow: none; cursor: default !important; }
+.wufoo button, .wufoo .button, .wufoo input[type=submit], .wufoo input[type=button] { display: inline-block; background: #f90; color: #f2ebcf; border-width: 0; transition: all ease-in-out 0.2s; margin: 0; line-height: 36px !important; height: 36px; border-radius: 3px; cursor: pointer !important; text-decoration: none; padding: 0 12px; font: inherit; }
+.wufoo button[disabled], .wufoo button[disabled]:hover, .wufoo .button[disabled], .wufoo .button[disabled]:hover, .wufoo input[type=submit][disabled], .wufoo input[type=submit][disabled]:hover, .wufoo input[type=button][disabled], .wufoo input[type=button][disabled]:hover, .wufoo .submit[disabled], .wufoo .submit[disabled]:hover { background: none; color: #888; box-shadow: none; cursor: default !important; }
 .wufoo button + button, .wufoo .button + button, .wufoo input[type=submit] + button, .wufoo input[type=button] + button, .wufoo .submit + button { margin-left: 0; }
 .wufoo button:hover, .wufoo .button:hover, .wufoo input[type=submit]:hover, .wufoo input[type=button]:hover, .wufoo .submit:hover { background: #f6f1dd; color: white; }
 .wufoo *[disabled], .wufoo *[disabled]:hover, .wufoo *[readonly], .wufoo *[readonly]:hover { cursor: default; }
