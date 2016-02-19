@@ -22,7 +22,7 @@ input, textarea { width: 100%; }
 .wufoo .fieldset.inline label, .wufoo fieldset.inline label { line-height: 24px; }
 .wufoo input, .wufoo select, .wufoo textarea { padding: 3px 0; line-height: 21px; }
 .wufoo input, .wufoo select { text-indent: 6px; }
-.wufoo input:not([type='submit']), .wufoo textarea, .wufoo select { border: 0; border-bottom: 1px dashed #bbb; }
+.wufoo input:not([type='submit']), .wufoo textarea, .wufoo select { border: 0; border-bottom: 1px solid #bbb; background: rgba(255,255,255,0.8); }
 .wufoo textarea { padding: 0; font-family: Helvetica, Arial, sans-serif; }
 .wufoo select { max-width: 100%; }
 .wufoo select option:after { content: '\0000a0 \0000a0 \0000a0'; /* Adds space between value and menu button where padding is ignored */ }
@@ -30,7 +30,7 @@ input, textarea { width: 100%; }
 .wufoo button, .wufoo .button, .wufoo input[type=submit], .wufoo input[type=button] { display: inline-block; background: #f90; color: #f2ebcf; border-width: 0; transition: all ease-in-out 0.2s; margin: 0; line-height: 36px !important; height: 36px; border-radius: 3px; cursor: pointer !important; text-decoration: none; padding: 0 12px; font: inherit; }
 .wufoo button[disabled], .wufoo button[disabled]:hover, .wufoo .button[disabled], .wufoo .button[disabled]:hover, .wufoo input[type=submit][disabled], .wufoo input[type=submit][disabled]:hover, .wufoo input[type=button][disabled], .wufoo input[type=button][disabled]:hover, .wufoo .submit[disabled], .wufoo .submit[disabled]:hover { background: none; color: #888; box-shadow: none; cursor: default !important; }
 .wufoo button + button, .wufoo .button + button, .wufoo input[type=submit] + button, .wufoo input[type=button] + button, .wufoo .submit + button { margin-left: 0; }
-.wufoo button:hover, .wufoo .button:hover, .wufoo input[type=submit]:hover, .wufoo input[type=button]:hover, .wufoo .submit:hover { background: #f6f1dd; color: white; }
+.wufoo button:hover, .wufoo .button:hover, .wufoo input[type=submit]:hover, .wufoo input[type=button]:hover, .wufoo .submit:hover { background: #fa3; color: white; }
 .wufoo *[disabled], .wufoo *[disabled]:hover, .wufoo *[readonly], .wufoo *[readonly]:hover { cursor: default; }
 .wufoo label.inactive { color: #777; cursor: default; }
 .wufoo input:hover, .wufoo textarea:hover, .wufoo select:hover { color: black; }
